@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Sign Up</title>
+</head>
+
+<body>
+    <div>
+        <form action="post">
+            <h1>Buat Account Baru!</h1>
+            <fieldset>
+                <legend>
+                    <h2>Sign Up Form</h2>
+                </legend>
+                <div>
+                    <label for="first-name">First Name:</label><br>
+                    <input type="text" name="first-name" id="first-name"><br>
+                    <label for="first-name">Last Name:</label><br>
+                    <input type="text" name="first-name" id="first-name">
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>
+                    <h2>Gender</h2>
+                </legend>
+                <div>
+                    <input type="radio" name="male" id="male">
+                    <label for="male">Male</label><br>
+                    <input type="radio" name="female" id="female">
+                    <label for="female">Female</label><br>
+                    <input type="radio" name="Other" id="Other">
+                    <label for="Other">Other</label><br>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>
+                    <h2>Nationality</h2>
+                </legend>
+                <div>
+                    <label for="nationality">Nasionality</label><br>
+                    <select name="nationality" id="nationality">
+                        <option value="Indonesia">Indonesia</option>
+                        <option value="English">English</option>
+                        <option value="Mandarin">Mandarin</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>
+                    <h2>Language Spoken</h2>
+                </legend>
+                <div>
+                    <input type="checkbox" name="bi" id="id">
+                    <label for="id">Bahasa Indonesia</label><br>
+                    <input type="checkbox" name="en" id="en">
+                    <label for="id">English</label><br>
+                    <input type="checkbox" name="ot" id="ot">
+                    <label for="id">Other</label><br>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>
+                    <h2>Bio</h2>
+                </legend>
+                <div>
+                    <textarea id="bio" name="bio" rows="4" cols="50">
+
+                    </textarea>
+                </div>
+            </fieldset>
+
+            <input type="submit" value="submit">
+        </form>
+    </div>
+</body>
+
+</html>
