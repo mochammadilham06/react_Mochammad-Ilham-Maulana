@@ -1,0 +1,16 @@
+﻿Figma
+Main resource : https://www.figma.com/file/Tk4c9OwKIjylGkhp0qtyss/Tugas-Prototype
+
+Lakukan analisis untuk contoh kode figma diatas
+1. Button 
+ 
+1. warna dalam satuan rgb : Linear Gradient dengan = rgba(64, 223, 159, 1) & rgba(62, 213, 152, 1)
+2. Shadow                 : X : 0, Y : 2, B : 4, S : 0 dengan warna rgba(15, 218, 137, 0.3)
+3. background             : linear-gradient(180deg, #40DF9F 0%, #3ED598 100%)
+4. box-shadow             : properti yang digunakan box-shadow: 0px 2px 4px rgba(15, 218, 137, 0.3)
+5. border-radius          : 12px
+
+2.  Card
+   1. Width               : 150px
+   2. Height              : 210px
+   3. Radius              : 25px
