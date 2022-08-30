@@ -1,0 +1,44 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(../fonts/Slabo27px-Regular.ttf);
+}
+
+div {
+    color: white;
+}
+
+.BoxBlue,
+.BoxRed {
+    display: grid;
+    font-family: myFirstFont, serif;
+    font-size: 20px;
+    display: inline-block;
+    margin-inline-end: 80px;
+    width: 100px;
+    padding: 15px;
+}
+
+p {
+    text-align: center;
+}
+
+.BoxRed {
+    background-color: red;
+    border: 1px solid red;
+
+}
+
+.BoxBlue {
+    background-color: Blue;
+    border: 1px solid rgba(0, 58, 248, 0.753);
+
+
+}
+
+.BoxGreen {
+    width: 350px;
+    padding-bottom: 150px;
+    background-color: green;
+    border-radius: 10px;
+
+}
