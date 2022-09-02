@@ -1,6 +1,5 @@
 # HTML
 
-
 Resume HTML
 1. Mempelajari tentang pengertian dari Frontend
 2. Mempelajari tentang apa itu HTML (Hypertext Markup Language), HTML editornya, serta struktur dari HTML
