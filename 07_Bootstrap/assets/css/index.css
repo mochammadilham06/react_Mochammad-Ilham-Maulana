@@ -1,0 +1,55 @@
+a {
+  color: grey !important;
+  text-decoration: none !important;
+}
+a:hover {
+  color: #71c55d !important;
+}
+p {
+  font-weight: lighter;
+  letter-spacing: 1px;
+}
+
+.greetings-teks {
+  margin-top: 100px;
+}
+.about {
+  margin-top: 5rem;
+}
+#about {
+  width: 300px;
+}
+.main-content img {
+  width: 50px;
+}
+.main-content a {
+  color: black !important;
+}
+.main-content a:hover {
+  color: #71c55d !important;
+}
+.drop-content a {
+  margin-bottom: 20px;
+  display: block;
+}
+.drop-content a:hover {
+  color: #71c55d !important;
+}
+.footer-section {
+  background-color: #2a2c30;
+}
+h4 {
+  text-align: start;
+  color: white !important;
+  font-size: 16px;
+}
+.aboutus-content a {
+  font-size: 14px;
+  display: block;
+  font-weight: lighter;
+  text-align: start;
+  color: white !important;
+}
+.aboutus-content a:hover {
+  color: #71c55d !important;
+}
