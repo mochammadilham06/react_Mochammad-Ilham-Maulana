@@ -1,0 +1,79 @@
+body {
+  font-family: Arial;
+  margin: 0;
+}
+.todoForm {
+  text-align: center;
+  position: relative;
+  width: 50%;
+  margin: auto;
+}
+
+.todoForm input[type="submit"] {
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 5px;
+  border: none;
+  font-weight: bold;
+  background-color: transparent;
+}
+
+.todoForm input[type="text"] {
+  border-radius: 20px;
+  width: 100%;
+  padding: 10px 0px 10px 10px;
+  border: 0;
+  box-shadow: 10px 8px 5px -4px rgba(0, 0, 0, 0.16);
+  -webkit-box-shadow: 10px 8px 5px -4px rgba(0, 0, 0, 0.16);
+  -moz-box-shadow: 10px 8px 5px -4px rgba(0, 0, 0, 0.16);
+}
+
+.todoList {
+  width: 500px;
+  margin: auto;
+}
+.todos {
+  margin: auto;
+  width: 70%;
+  padding: 10px;
+}
+
+.todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 20px 0px 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid lightgrey;
+}
+
+.todo input {
+  margin-right: 20px;
+}
+
+.todo button {
+  border-radius: 50%;
+  padding: 15px 5px;
+  cursor: pointer;
+  border: 0;
+  font-weight: bold;
+}
+
+.todos ul {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.todos ul li {
+  list-style-type: none;
+  margin: 0px 20px;
+}
+
+.todo .done {
+  text-decoration: line-through;
+  font-style: italic;
+  font-weight: bold;
+  color: grey;
+}

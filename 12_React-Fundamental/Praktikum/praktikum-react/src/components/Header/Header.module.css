@@ -1,0 +1,7 @@
+.header {
+  box-shadow: 4px 13px 12px 0px rgba(0, 0, 0, 0.34);
+  -webkit-box-shadow: 4px 13px 12px 0px rgba(0, 0, 0, 0.34);
+  -moz-box-shadow: 4px 13px 12px 0px rgba(0, 0, 0, 0.34);
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 10px;
+}
