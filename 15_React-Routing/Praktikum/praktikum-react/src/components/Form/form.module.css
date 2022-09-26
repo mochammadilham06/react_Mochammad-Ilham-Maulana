@@ -1,0 +1,26 @@
+.form {
+  text-align: center;
+  position: relative;
+  margin: auto;
+  max-width: 620px;
+}
+
+.form input[type="submit"] {
+  cursor: pointer;
+  position: absolute;
+  top: 17px;
+  right: 10px;
+  border: none;
+  font-weight: bold;
+  background-color: transparent;
+}
+
+.form input[type="text"] {
+  border-radius: 20px;
+  width: 100%;
+  padding: 20px 0px 10px 0px;
+  border: none;
+  box-shadow: 10px 8px 5px -4px rgba(0, 0, 0, 0.16);
+  -webkit-box-shadow: 10px 8px 5px -4px rgba(0, 0, 0, 0.16);
+  -moz-box-shadow: 10px 8px 5px -4px rgba(0, 0, 0, 0.16);
+}
