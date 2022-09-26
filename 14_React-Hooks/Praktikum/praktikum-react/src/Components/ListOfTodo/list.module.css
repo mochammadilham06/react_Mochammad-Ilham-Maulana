@@ -1,0 +1,27 @@
+.listToDo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  padding: 20px 10px;
+  border-bottom: 1px solid lightgrey;
+}
+
+.listToDo input {
+  margin-right: 15px;
+}
+
+.listToDo button {
+  border-radius: 50%;
+  padding: 15px 5px;
+  cursor: pointer;
+  border: none;
+  font-weight: bold;
+}
+
+.listToDo .complete {
+  text-decoration: line-through;
+  font-style: italic;
+  font-weight: bold;
+  color: grey;
+}
