@@ -1,0 +1,8 @@
+.headerStyle {
+  text-align: center;
+  background: -webkit-linear-gradient(#07539c, #01ed96);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 70px;
+  display: block;
+}
