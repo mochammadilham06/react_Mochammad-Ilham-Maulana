@@ -1,17 +1,22 @@
-import SetUpRoutes from "./routes/setUpRoutes";
-import styles from "./assets/css/main.module.css";
-import { Provider } from "react-redux";
-import { store, persistor } from "./store";
-import { PersistGate } from "redux-persist/integration/react";
+import logo from "./logo.svg";
+import "./App.css";
+
 function App() {
   return (
-    <Provider store={store}>
-      <PersistGate loading={null} persistor={persistor}>
-        <div className={styles.body}>
-          <SetUpRoutes />
-        </div>
-      </PersistGate>
-    </Provider>
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>Selamat Datang di Website Statik Ilham Maul.</p>
+        <a
+          className="App-link"
+          href="https://github.com/mochammadilham06"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Github Saya
+        </a>
+      </header>
+    </div>
   );
 }
 
