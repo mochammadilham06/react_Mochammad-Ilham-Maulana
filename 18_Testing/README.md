@@ -110,3 +110,5 @@ describe("when rendered", () => {
   });
 });
 ```
+
+![Result](./Screenshots/Coverage.png)
