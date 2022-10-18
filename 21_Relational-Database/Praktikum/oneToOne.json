@@ -1,0 +1,26 @@
+{
+  "data": {
+    "result": {
+      "data": [
+        {
+          "id_anggota": 1,
+          "anggota": {
+            "nama": "Budi"
+          }
+        },
+        {
+          "id_anggota": 2,
+          "anggota": {
+            "nama": "Sita"
+          }
+        },
+        {
+          "id_anggota": 3,
+          "anggota": {
+            "nama": "Angga"
+          }
+        }
+      ]
+    }
+  }
+}

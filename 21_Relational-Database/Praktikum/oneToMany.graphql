@@ -1,0 +1,12 @@
+query oneToMany {
+  result: kampus_merdeka_anggota_aggregate {
+    data: nodes {
+      id
+      nama
+      pelajaran: keterangans {
+        id_anggota
+        pelajaran
+      }
+    }
+  }
+}
