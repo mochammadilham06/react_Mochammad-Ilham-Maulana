@@ -1,0 +1,31 @@
+{
+  "data": {
+    "update_kampus_merdeka_keterangan_many": [
+      {
+        "returning": [
+          {
+            "status": true,
+            "id_anggota": 1,
+            "anggotum": {
+              "nama": "Budi"
+            }
+          },
+          {
+            "status": true,
+            "id_anggota": 3,
+            "anggotum": {
+              "nama": "Angga"
+            }
+          },
+          {
+            "status": true,
+            "id_anggota": 2,
+            "anggotum": {
+              "nama": "Sita"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "data": {
+    "kampus_merdeka_keterangan_aggregate": {
+      "nodes": [
+        {
+          "id_anggota": 1,
+          "nilai": 85,
+          "status": true,
+          "anggotum": {
+            "nama": "Budi"
+          }
+        },
+        {
+          "id_anggota": 2,
+          "nilai": 90,
+          "status": true,
+          "anggotum": {
+            "nama": "Sita"
+          }
+        }
+      ]
+    }
+  }
+}
