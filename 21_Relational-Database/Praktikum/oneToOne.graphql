@@ -1,0 +1,10 @@
+query oneToOne {
+  result: kampus_merdeka_keterangan_aggregate(limit: 3) {
+    data: nodes {
+      id_anggota
+      anggota: anggotum {
+        nama
+      }
+    }
+  }
+}

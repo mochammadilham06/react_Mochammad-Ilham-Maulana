@@ -1,0 +1,50 @@
+{
+  "data": {
+    "result": {
+      "data": [
+        {
+          "id": 1,
+          "nama": "Budi",
+          "pelajaran": [
+            {
+              "id_anggota": 1,
+              "pelajaran": "Sistem Informasi"
+            },
+            {
+              "id_anggota": 1,
+              "pelajaran": "React"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "nama": "Sita",
+          "pelajaran": [
+            {
+              "id_anggota": 2,
+              "pelajaran": "Sistem Informasi"
+            },
+            {
+              "id_anggota": 2,
+              "pelajaran": "React"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "nama": "Angga",
+          "pelajaran": [
+            {
+              "id_anggota": 3,
+              "pelajaran": "Sistem Informasi"
+            },
+            {
+              "id_anggota": 3,
+              "pelajaran": "React"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
