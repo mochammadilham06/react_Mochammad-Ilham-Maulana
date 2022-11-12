@@ -1,0 +1,290 @@
+@font-face {
+  font-family: "Viga Font";
+  src: url("../../fonts/Viga-Regular.ttf");
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+/* NAVBAR */
+
+.navbar-brand {
+  font-family: Viga Font;
+  font-size: 32px;
+}
+
+.bg-dark {
+  background-color: #343a40 !important;
+}
+
+.bg-nontrans {
+  background-color: #343a40 !important;
+}
+
+/* END NAVBAR */
+
+/* BUTTON UTILITY */
+.button {
+  text-transform: uppercase;
+  border-radius: 40px;
+}
+
+/* EMD BUTTON UTILITY */
+
+/* JUMBOTRON */
+.jumbotron {
+  background-image: url("../../img/teamwork.jpg");
+  background-size: cover;
+  height: 80vh;
+  position: relative;
+  z-index: 1;
+}
+
+.jumbotron .container {
+  z-index: 1;
+  position: relative;
+}
+
+.jumbotron .display-4 {
+  color: #fff;
+  text-align: center;
+  margin-top: 150px;
+  font-weight: 200;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+  overflow: hidden;
+  font-size: 40px;
+}
+
+.jumbotron::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 1),
+    rgba(0, 0, 0, 0.2)
+  );
+}
+
+.jumbotron .display-4 span {
+  font-weight: 500;
+}
+
+/* END JUMBOTRON */
+
+h6 {
+  color: white !important;
+}
+
+.list-unstyled li a {
+  text-decoration: none;
+  color: white;
+}
+
+/* STYLE FOR SECTION */
+section {
+  min-height: 420px;
+}
+
+/* HOME */
+#home {
+  padding-top: 0px;
+}
+
+/* END HOME */
+
+/* ABAOT */
+
+#about {
+  position: relative;
+  z-index: 1;
+  padding-top: 20px;
+  min-height: 650px;
+  text-align: center;
+}
+
+#about h2 {
+  font-size: 54px;
+  font-family: viga font;
+}
+
+#about h3 {
+  margin-top: 30px;
+  font-size: 46px;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+
+#about h3 span {
+  font-weight: 500;
+}
+
+#about p {
+  font-size: 18px;
+  font-weight: 250;
+  margin: 30px 0;
+}
+
+#about .btn {
+  margin-bottom: 20px;
+  padding: 10px 20px;
+}
+
+/* END ABOUT */
+
+/* TEAM SECTION */
+#team h2 {
+  padding-top: 20px;
+  font-size: 54px;
+  font-family: viga font;
+}
+
+.teamimg img {
+  border-radius: 10px;
+  --webkit-box-shadow: -1px 3px 12px -3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 3px 12px -3px rgba(0, 0, 0, 0.75);
+  box-shadow: -1px 3px 12px -3px rgba(0, 0, 0, 0.75);
+}
+
+.p1 {
+  font-weight: lighter;
+  color: gray;
+  font-size: 22px;
+}
+
+#team .teamstatus p {
+  font-weight: lighter;
+  color: grey;
+}
+
+small {
+  font-weight: bold;
+  color: gray;
+}
+
+.team .fa-facebook {
+  color: blue;
+  font-size: 22px;
+}
+
+.team .fa-instagram {
+  color: #c13584;
+  font-size: 22px;
+}
+
+.team .fa-google-plus {
+  color: #d34836;
+  font-size: 22px;
+}
+
+#portofolio {
+  padding-top: 50px;
+}
+
+.portofolio .card {
+  opacity: 0;
+  transform: translate(0, 40px);
+  transition: 0.5s;
+}
+
+.portofolio .card.show {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+#jobdesc {
+  height: 100vh;
+}
+
+#jobdesc h2 {
+  padding-top: 30px;
+  font-size: 54px;
+  font-family: viga font;
+}
+
+#jobdesc p {
+  font-size: 18px;
+  font-weight: 250;
+  margin: 30px 0;
+}
+
+/* END JOBDESCRIPTION SECTION */
+
+/* CONTACT SECTION */
+#contact h2 {
+  padding-top: 40px;
+  font-size: 48px;
+  font-family: viga font;
+}
+
+/* END CONTACT SECTION */
+
+/* FOOTER SECTION */
+#foot {
+  background-color: #343a40 !important;
+}
+
+/* END FOOTER SECTION  */
+/* MEDIA QUERY */
+@media (min-width: 992px) {
+  .navbar-brand,
+  .nav-link {
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+  }
+
+  .nav-link {
+    text-transform: uppercase;
+    margin-right: 15px;
+  }
+
+  .nav-link:hover::after {
+    content: "";
+    display: block;
+    border-bottom: 3px solid #007bff;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+  }
+
+  .jumbotron .display-4 {
+    font-size: 62px;
+  }
+
+  .jumbotron {
+    height: 100vh;
+  }
+
+  .bg-dark {
+    background-color: rgba(0, 0, 0, 0) !important;
+  }
+
+  .bg-nontrans {
+    background-color: #343a40 !important;
+  }
+
+  #about {
+    text-align: left;
+  }
+
+  #about .btn {
+    margin-bottom: 0;
+    padding: 10px 30px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  #home {
+    margin-top: 50px;
+  }
+
+  .bg-dark {
+    background-color: #343a40 !important;
+  }
+}
+
+/* END MEDIA QUERY */
